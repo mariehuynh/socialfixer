@@ -1,0 +1,85 @@
+#pagelet_trending_tags_and_topics {
+    display:none;
+}
+
+#leftCol{
+    display:none !important;
+    width:0 !important;
+}
+
+#rightCol{
+    display:none !important;
+    width:0 !important;
+}
+
+html.stretch_wide body:not(.timelineLayout):not(.canvas) #contentCol {
+padding-left: 15px !important;
+    padding-right:0 !important;
+}
+
+/* Related Videos */
+._4-u2._la {
+    display:none !important;
+}
+
+/* Similar to*/
+._54bx._54bz {
+display: none;
+}
+
+.uiScaledImageContainer {}
+
+._4-ep {
+ width: auto !important;
+height: 150px !important;
+}
+.mtm a{
+    max-height: 198px !important;
+    max-width: 200px !important;
+}
+
+._4-ep img,
+._46-i.img {
+    width: auto !important;
+    min-height: 0 !important;
+    height: 100% !important;
+}
+.fbStoryAttachmentImage{
+    height: 100px !important;
+    width: auto !important;
+}
+
+/* Reduce spacing */
+.UFILikeSentence{
+    padding: 0px;
+}
+._5vsj._5vsj._5vsj{
+    margin: 0px !important;
+}
+._5v3q {
+    padding: 0px 0 0 12px !important;
+}
+._6m3 {
+height: auto;
+}
+.UFIRow {
+margin: 0 !important;
+padding: 2px !important;
+}
+._5cwb ._59tj {
+    position: relative;
+    top: 12px;
+}
+._5v3q ._4-eo::after {
+    border: none;
+}
+
+/* Each thing in feed*/
+._4ikz{
+    padding: 0 0 0 5px;
+}
+
+/* Hide Trending in posts */
+._5g-l{
+    display:none;
+}
